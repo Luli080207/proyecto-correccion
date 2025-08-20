@@ -64,7 +64,7 @@ if (!validate()) return;
     };
 
     return (
-      <layout>
+      <Layout>
         <h1>Registrate!</h1>
         <section>
           <h2>Bienvenido</h2>
@@ -104,7 +104,7 @@ if (!validate()) return;
           {errors.general && <p style={{ color: "red"}}>{errors.general}</p>}
           {success && <p style={{ color: "green"}}></p>}
         </section>
-      </layout>
+      </Layout>
     );
   
     export { Register };
