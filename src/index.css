@@ -1,0 +1,96 @@
+/*Estilos globales*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/*contenedor/es generales para centrar el contenido*/
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*Responsive design-Breakpoints*/
+
+/*Mobile: hasta 480px*/
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  header, footer {
+    padding: 10px;
+  }
+}
+
+/*Tablet: hasta 880px*/
+@media (max-width: 880px) {
+  body {
+    font-size: 15px;
+  }
+  header, footer {
+    padding:15px
+  }
+}
+
+
+
+
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.error {
+  color: red;
+}
+
+.popup-edit {
+  background-color: yellowgreen;
+  padding: 20px;
+}
+
+input,
+textarea {
+  display: block;
+  padding: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 5px;
+}
