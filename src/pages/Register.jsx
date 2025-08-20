@@ -11,6 +11,8 @@ const Register = () => {
   const [errors, setErrors] = useState({});
   const [succes, setSuccess] = useState("");
 
+  const { register } = useAuth();
+
   const handleChange = (e) => {
     setFormData({...formData, [e.target.name]: e.target.value});
   }
