@@ -16,6 +16,7 @@ const RouterApp = () => {
 
 
   return (
+    <UserProvider>
     <BrowserRouter>
       <Routes>
         <Route path="/about" element={<About/>} />
@@ -26,6 +27,7 @@ const RouterApp = () => {
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
+    </UserProvider>
   )
 }
 
